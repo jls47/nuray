@@ -6,23 +6,27 @@ html{
 
 	width: 80vw;
 	height: 80vw;
-	margin-top: 25vw;
+	margin-top: 7vw;
 	margin-left: 10vw;
 	margin-right: 10vw;
 }
 
 .subBody{
 	width: 80%;
-	height: 80%;
+	height: 20%;
 	margin: auto;
 }
 
 .category{
 	display: inline-block;
-	width: 33%;
+	width: 28%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+#schoology{
+	width: 35%;
 }
 
 a{
@@ -31,10 +35,18 @@ a{
 	font-size: 50px;
 	font-family: "arial";
 	color: purple;
+	border-radius: 15px;
+	background-color: rgba(209, 84, 255, 0.5);
 }
 
 a:hover{
 	border-radius: 10px;
 	background-color: purple;
 	color: hotpink;
+}
+
+h1{
+	font-family: "arial";
+	font-size: 60px;
+	color: purple;
 }
